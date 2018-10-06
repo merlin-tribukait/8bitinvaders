@@ -7717,15 +7717,15 @@ h3.filebaseFileSubject::before {
 
 // Teamspeak Container Top
 .woltlabHero #teamspeakInbox {
-  margint-top: 30px;
+  margin-top: 30px;
 
   .teamspeakboxLeft {
     text-align: left;
 
-    .tsconnectbox {
+    a {
       &:hover,
       &:focus {
-        color: #0065;
+        color: #151518 !important;
       }
     }
   }
