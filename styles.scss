@@ -7706,11 +7706,27 @@ h3.filebaseFileSubject::before {
   display: none;
 }
 
-
+// Game Container Image
 .woltlabCustomersBox .games-container {
   @media only screen and (max-width: 1024px) {
     img {
       width: 80%;
+    }
+  }
+}
+
+// Teamspeak Container Top
+.woltlabHero #teamspeakInbox {
+  margint-top: 30px;
+
+  .teamspeakboxLeft {
+    text-align: left;
+
+    .tsconnectbox {
+      &:hover,
+      &:focus {
+        color: #0065;
+      }
     }
   }
 }
