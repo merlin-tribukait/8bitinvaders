@@ -7705,3 +7705,12 @@ h3.filebaseFileSubject::before {
 .userTitleBadge {
   display: none;
 }
+
+
+.woltlabCustomersBox .games-container {
+  @media only screen and (max-width: 1024px) {
+    img {
+      width: 80%;
+    }
+  }
+}
